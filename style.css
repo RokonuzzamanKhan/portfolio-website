@@ -1,0 +1,86 @@
+body{
+  font-family: 'Manrope', sans-serif;
+  margin: 0;
+}
+h1{
+  font-size: 30px;
+}
+h2{
+  font-size: 20px;
+}
+p{
+   text-align:justify;
+   color: gray;
+}
+.red-color{
+  color:red;
+}
+.half_width{
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.top-banner{
+  background-image: url("images/top-banner.png");
+  background-repeat: no-repeat;
+}
+section{
+  height: 550px;
+  padding-bottom: 150px;
+}
+.button1{
+  text-decoration: none;
+  background-image: linear-gradient(45deg, orange, tomato);
+  padding:10px 20px;
+  border-radius: 20px;
+  color: white;
+  font-weight: 500;
+}
+.button2{
+  text-decoration: none;
+  background-image: linear-gradient(45deg, violet, tomato);
+  padding:10px 25px;
+  border-radius: 20px;
+  color: white;
+  font-weight: 500;
+}
+.half_width img{
+  width: 100%;
+}
+.down-banner{
+  background-image: url("images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.Exp{
+  color: rgb(61, 42, 165);
+  margin-left: 5%;
+  padding: 2%;
+}
+.experience{
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.single-experience{
+  padding: 1.5%;
+  box-shadow: 10px 10px 40px gray;
+  height: 80%;
+  border-radius: 5px;
+  background-color: white;
+}
+#full-stack{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, orange, tomato);
+  border-image-slice: 1;
+}
+#baby-web{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, violet, tomato);
+  border-image-slice: 1;
+}
+footer h4{
+  text-align: center;
+}
